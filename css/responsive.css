@@ -1,0 +1,359 @@
+@media (max-width: 1024px){
+
+    h1{
+        font-size: 25px;
+        font-weight: 700;
+        color: #081158;
+        margin-bottom: 20px
+    }
+    p{
+        font-size: 14px;
+        font-weight: 500;
+        color: rgba(27, 26, 26, 0.6);
+        line-height: 20px;
+    }
+
+    /* Nav bar Start */
+
+    .nav_bar ul li{
+        padding: 10px 7px;
+        position: relative;
+    }
+    .download_btn{
+        padding: 3px 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    /*Nav bar End */
+
+    /* Hero section Start */
+    .intro{
+        display: inline-flex;
+    }
+    .left p{
+        max-width: 350px;
+    }
+    .left .btns a{
+         font-size: 12px;
+         padding: 10px 15px;
+    }
+    .intro img{
+        margin-left: 20px;
+        max-width: 333px;
+    }
+
+    /* Hero section End */
+
+    /* Feature Section Started */
+     .works{
+         width: 100%;
+     }
+    .catagory{
+        width: 250px;
+    }
+
+    /* Feature Section End */
+
+    /* About Section Started */
+
+    .about{
+        margin: 50px 9%;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .about .image img{
+        max-width: 400px;
+        height: auto;
+        align-self: center;
+        display: block;
+        margin: 0 auto;
+        
+    }
+    .about .details{
+        margin-left: 0;
+        padding-top: 50px;
+    }
+    .about .details h1{
+        line-height: 30px;
+    }
+    .details button{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+
+    /* About Section End */
+
+
+
+
+    /* Testimonial Section start */
+
+    .testimonial {
+        padding: 50px 9%;
+    }
+    .tst_box{
+        flex-direction: column;
+        margin: 0 auto;
+        display: block;
+    }
+    .tst_head p{
+        max-width: 450px;
+    }
+    .tst_box .comment{
+        padding: 15px;
+        margin: 10px;
+    }
+    .tst_box .comment .text3{
+        padding: 20px 5px;
+        font-size: 14px;
+    }
+    .tst_box .comment h4{
+        font-weight: 500;
+    }
+
+    /* Testimonial Section end */
+
+    /* Footer Section Started */
+        footer{
+            margin: 50px 9%;
+        }
+        .footer_top{
+           flex-direction: column; 
+           padding-bottom: 30px;
+        }
+        .footer_top .div1{
+            padding-bottom: 30px;
+        }
+        footer .div1 p{
+            padding-bottom: 15px;
+        }
+        footer .div1 .icon i{
+            font-size: 14px;
+            padding: 8px;
+        }
+        footer .div1 p a{
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+    /* Footer Section End */
+
+
+
+}
+
+@media (max-width: 768px) {
+
+    h1{
+        font-size: 25px;
+        font-weight: 700;
+        color: #081158;
+        margin-bottom: 20px
+    }
+    p{
+        font-size: 13px;
+        font-weight: 500;
+        color: rgba(27, 26, 26, 0.6);
+        line-height: 20px;
+    }
+
+    /*Nav-bar started */
+
+    .nav_bar{
+        position: fixed;
+        background-color: #fff;
+    }
+    .nav_bar .nav {
+        position: relative;
+    }
+    .nav_bar .nav ul{
+        position: fixed;
+        top: 100px;
+        height: 100%;
+        width: 100%;
+        display: block;
+        text-align: center;
+        display: none;
+        transition: all .5s;
+    }
+    .nav_bar ul li:hover .dropdown-menu {
+        display: none;   
+    }
+   
+    .nav ul .fas{
+        float: none;
+    }
+
+    .download_btn{
+        display: block;
+        margin: auto;
+        color: rgba(0, 0, 0, 0.5);
+        background: none;
+        border: none;
+        font-weight: 500;
+    }
+    .checkbtn{
+        display: block;
+        position: absolute;
+        right: 9%;
+        cursor: pointer;
+    }
+    #check:checked ~ ul{
+        right: 20px;
+        display: block;
+        background-color: #fff;
+        
+    }
+    /* Nab-bar End */
+
+    /* Hero Section Started */
+    
+    .intro{
+        padding-top: 50px;
+        flex-direction:
+        column;
+        height: auto;
+    }
+    h5{
+        padding: 5px 10px;
+        font-size: 8px;
+    }
+    .left p{
+        max-width: 400px;
+        padding-bottom: 4rem;
+    }
+    .left .btns a{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+    .intro img{
+        margin-left: 9%;
+        margin-top: 30px;
+    }
+
+
+    /* Hero Section End */
+
+    /* Feature Section Strat */
+
+    .feature{
+        padding-bottom: 30px;
+    }
+    .feature_head p{
+        padding-bottom: 2rem;
+    }
+
+    .works{
+        flex-direction: column;
+    }
+    .catagory i{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .catagory h3{
+        line-height: 2.5rem;
+    }
+    .catagory p{
+        padding-bottom: 2rem;
+    }
+
+    /* Feature Section ENd */
+
+    .about{
+        margin: 50px 9%;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .about .image img{
+        max-width: 400px;
+        height: auto;
+        align-self: center;
+        display: block;
+        margin: 0 auto;
+        
+    }
+    .about .details{
+        margin-left: 0;
+        padding-top: 50px;
+    }
+    .about .details h1{
+        line-height: 30px;
+    }
+    .details button{
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    
+    /* About Section end */
+
+    /* Service Section Start */
+
+    .service {
+        padding-bottom: 0;
+    }
+    .service .box{
+        flex-direction: column;
+    }
+    .box .card i{
+        font-size: 25px;
+    }
+
+    /* Service Section end */
+
+    /* Testimonial Section start */
+
+    .testimonial {
+        padding: 50px 9%;
+    }
+    .tst_box{
+        flex-direction: column;
+        margin: 0 auto;
+        display: block;
+    }
+    .tst_head p{
+        max-width: 450px;
+    }
+    .tst_box .comment{
+        padding: 15px;
+        margin: 10px;
+    }
+    .tst_box .comment .text3{
+        padding: 20px 5px;
+        font-size: 14px;
+    }
+    .tst_box .comment h4{
+        font-weight: 500;
+    }
+
+    /* Testimonial Section end */
+
+    /* Footer Section Started */
+        footer{
+            margin: 50px 9%;
+        }
+        .footer_top{
+           flex-direction: column; 
+           padding-bottom: 30px;
+        }
+        .footer_top .div1{
+            padding-bottom: 30px;
+        }
+        footer .div1 p{
+            padding-bottom: 15px;
+        }
+        footer .div1 .icon i{
+            font-size: 14px;
+            padding: 8px;
+        }
+        footer .div1 p a{
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+    /* Footer Section End */
+
+}
